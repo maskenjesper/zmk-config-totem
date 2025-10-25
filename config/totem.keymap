@@ -79,7 +79,7 @@
             bindings = <
            &kp EXCL   &kp AT             &kp HASH               &kp DOLLAR       &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp PIPE   &kp BACKSLASH
            &kp TILDE  &kp LEFT_BRACKET   &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp A          &kp LEFT   &kp DOWN       &kp UP        &kp RIGHT  &kp BACKSPACE
-&kp GRAVE  &kp A      &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp A          &kp UNDER  &kp EQUAL      &kp MINUS     &kp PLUS   &kp A          &kp A
+&kp GRAVE  &kp A      &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp A          &kp A      &kp UNDER      &kp MINUS     &kp EQUAL  &kp PLUS       &kp A
                                          &trans                 &trans           &trans         &trans     &trans         &trans
             >;
         };
@@ -89,7 +89,7 @@
             bindings = <
        &kp A  &kp A           &kp A             &kp A       &kp A                &kp A   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp A
        &kp A  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_VOLUME_UP      &kp A   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp DELETE
-&to 3  &kp A  &kp A           &kp A             &kp C_MUTE  &kp C_VOLUME_DOWN    &kp A   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &kp A
+&kp A  &kp A  &kp A           &kp A             &kp C_MUTE  &kp C_VOLUME_DOWN    &kp A   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &to 3
                               &trans            &trans      &trans               &trans  &trans        &trans
             >;
         };

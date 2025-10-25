@@ -54,6 +54,11 @@
             bindings = <&kp ENTER>;
             key-positions = <16 17>;
         };
+
+        Tab {
+            bindings = <&kp TAB>;
+            key-positions = <12 13>;
+        };
     };
 
     keymap {

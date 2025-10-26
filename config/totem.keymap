@@ -71,7 +71,7 @@
                        &kp Q  &kp W  &kp E         &kp R                 &kp T             &kp Y            &kp U        &kp I       &kp O    &kp P
                        &kp A  &kp S  &kp D         &kp F                 &kp G             &kp H            &kp J        &kp K       &kp L    &kp SEMICOLON
 &mt LEFT_SHIFT ESCAPE  &kp Z  &kp X  &kp C         &kp V                 &kp B             &kp N            &kp M        &kp COMMA   &kp DOT  &kp SLASH      &mt RIGHT_SHIFT APOSTROPHE
-                                     &kp LEFT_ALT  &mt LEFT_CONTROL TAB  &mt LGUI SPACE    &lt 1 BACKSPACE  &lt 2 ENTER  &kp DELETE
+                                     &kp LEFT_ALT  &mt LEFT_CONTROL TAB  &mt LGUI SPACE    &lt 4 BACKSPACE  &lt 2 ENTER  &kp DELETE
             >;
         };
 
@@ -106,10 +106,10 @@
 
         layer_4 {
             bindings = <
-                      &kp N1     &kp N2     &kp N3            &kp N4             &kp N5       &kp N6    &kp N7                &kp N8                 &kp N9     &kp N0
-                      &kp TILDE  &kp UNDER  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp EQUAL    &kp LEFT  &kp DOWN              &kp UP                 &kp RIGHT  &kp BACKSPACE
-&mt LEFT_SHIFT GRAVE  &kp        &kp MINUS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PLUS     &kp       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE   &kp            &mt RIGHT_SHIFT BACKSLASH
-                                            &kp               &kp                &kp          &kp       &kp                   &kp
+                      &kp N1     &kp N2     &kp N3                &kp N4                 &kp N5       &kp N6    &kp N7          &kp N8           &kp N9     &kp N0
+                      &kp TILDE  &kp UNDER  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL    &kp LEFT  &kp DOWN        &kp UP           &kp RIGHT  &kp BACKSPACE
+&mt LEFT_SHIFT GRAVE  &trans     &kp MINUS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS     &trans    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE   &trans         &mt RIGHT_SHIFT BACKSLASH
+                                            &trans                &trans                 &trans       &trans    &trans          &trans
             >;
         };
     };

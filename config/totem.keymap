@@ -94,22 +94,12 @@
             >;
         };
 
-        backup {
-            display-name = "Sym";
-            bindings = <
-           &kp EXCL   &kp AT             &kp HASH               &kp DOLLAR       &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp PIPE   &kp BACKSLASH
-           &kp TILDE  &kp LEFT_BRACKET   &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp A          &kp LEFT   &kp DOWN       &kp UP        &kp RIGHT  &kp BACKSPACE
-&kp GRAVE  &kp A      &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp A          &kp A      &kp UNDER      &kp MINUS     &kp EQUAL  &kp PLUS       &kp A
-                                         &trans                 &trans           &trans         &trans     &trans         &trans
-            >;
-        };
-
         layer_3 {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &mmv MOVE_DOWN  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans          &to 0
+        &trans  &trans  &trans  &trans  &trans    &trans            &trans          &trans        &trans           &trans
+        &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN    &mkp MB4        &mkp MB5      &msc SCRL_UP     &trans  &to 0
+                        &trans  &trans  &trans    &mkp MB1          &mkp MB2        &mkp MB3
             >;
         };
     };

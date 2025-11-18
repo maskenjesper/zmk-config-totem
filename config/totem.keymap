@@ -56,10 +56,10 @@
         Base {
             display-name = "Base";
             bindings = <
-           &kp Q             &kp W               &kp E       &kp R           &kp T          &kp Y            &kp U            &kp I       &kp O                &kp P
-           &hm LEFT_SHIFT A  &hm LEFT_CONTROL S  &hm LGUI D  &hm LEFT_ALT F  &kp G          &kp H            &hm RIGHT_ALT J  &hm RGUI K  &hm RIGHT_CONTROL L  &hm RIGHT_SHIFT SEMICOLON
-&lt 1 ESC  &kp Z             &kp X               &kp C       &kp V           &kp B          &kp N            &kp M            &kp COMMA   &kp DOT              &kp SLASH                  &lt 1 APOSTROPHE
-                                                 &caps_word  &kp TAB         &lt 3 SPACE    &lt 2 BACKSPACE  &kp ENTER        &kp DELETE
+         &kp Q             &kp W               &kp E       &kp R           &kp T          &kp Y            &kp U            &kp I       &kp O                &kp P
+         &hm LEFT_SHIFT A  &hm LEFT_CONTROL S  &hm LGUI D  &hm LEFT_ALT F  &kp G          &kp H            &hm RIGHT_ALT J  &hm RGUI K  &hm RIGHT_CONTROL L  &hm RIGHT_SHIFT SEMICOLON
+&kp ESC  &kp Z             &kp X               &kp C       &kp V           &kp B          &kp N            &kp M            &kp COMMA   &kp DOT              &kp SLASH                  &kp APOSTROPHE
+                                               &caps_word  &kp TAB         &lt 3 SPACE    &lt 2 BACKSPACE  &lt 1 ENTER      &kp DELETE
             >;
         };
 
@@ -74,10 +74,10 @@
 
         Sym {
             bindings = <
-           &kp N1                &kp N2                  &kp N3                     &kp N4                          &kp N5       &kp N6       &kp N7                   &kp N8             &kp N9                    &kp N0
-           &hm LEFT_SHIFT TILDE  &hm LEFT_CONTROL UNDER  &hm LGUI LEFT_PARENTHESIS  &hm LEFT_ALT RIGHT_PARENTHESIS  &kp EQUAL    &kp CARET    &hm RIGHT_ALT AMPERSAND  &hm RGUI ASTERISK  &hm RIGHT_CONTROL DOLLAR  &hm RIGHT_SHIFT PIPE
-&kp GRAVE  &kp EXCLAMATION       &kp MINUS               &kp LEFT_BRACE             &kp RIGHT_BRACE                 &kp PLUS     &kp AT_SIGN  &kp LEFT_BRACKET         &kp RIGHT_BRACKET  &kp HASH                  &kp BACKSLASH         &kp PERCENT
-                                                         &trans                     &trans                          &trans       &trans       &trans                   &trans
+           &kp EXCLAMATION       &kp AT_SIGN             &kp LEFT_BRACKET           &kp RIGHT_BRACKET               &kp PERCENT    &kp CARET      &kp N7            &kp N8       &kp N9                &kp N0
+           &hm LEFT_SHIFT TILDE  &hm LEFT_CONTROL UNDER  &hm LGUI LEFT_PARENTHESIS  &hm LEFT_ALT RIGHT_PARENTHESIS  &kp EQUAL      &kp AMPERSAND  &hm RIGHT_ALT N4  &hm RGUI N5  &hm RIGHT_CONTROL N6  &hm RIGHT_SHIFT PIPE
+&kp GRAVE  &kp HASH              &kp MINUS               &kp LEFT_BRACE             &kp RIGHT_BRACE                 &kp PLUS       &kp ASTERISK   &kp N1            &kp N2       &kp N3                &kp BACKSLASH         &kp DOLLAR
+                                                         &trans                     &trans                          &trans         &trans         &trans            &trans
             >;
         };
 

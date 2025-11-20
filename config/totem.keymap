@@ -68,7 +68,7 @@
            &kp EXCLAMATION       &kp AT_SIGN         &kp LEFT_BRACKET           &kp RIGHT_BRACKET                   &kp PERCENT    &kp CARET      &kp N7                &kp N8       &kp N9           &kp PIPE
            &hm LEFT_SHIFT TILDE  &hm LEFT_ALT UNDER  &hm LGUI LEFT_PARENTHESIS  &hm LEFT_CONTROL RIGHT_PARENTHESIS  &kp EQUAL      &kp AMPERSAND  &hm RIGHT_CONTROL N4  &hm RGUI N5  &hm LEFT_ALT N6  &hm RIGHT_SHIFT NUMBER_0
 &kp GRAVE  &kp HASH              &kp MINUS           &kp LEFT_BRACE             &kp RIGHT_BRACE                     &kp PLUS       &kp ASTERISK   &kp N1                &kp N2       &kp N3           &kp BACKSLASH             &kp DOLLAR
-                                                     &trans                     &to 3                               &trans         &trans         &trans                &trans
+                                                     &trans                     &to 3                               &trans         &trans         &trans                &to 4
             >;
         };
 
@@ -86,7 +86,7 @@
             bindings = <
        &none  &none           &none           &none            &none     &none           &none           &none         &none            &none
        &none  &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &none     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none
-&none  &none  &none           &mmv MOVE_DOWN  &none            &none     &none           &mkp MB4        &mkp MB5      &none            &none  &to 0
+&to 0  &none  &none           &mmv MOVE_DOWN  &none            &none     &none           &mkp MB4        &mkp MB5      &none            &none  &to 0
                               &trans          &trans           &trans    &mkp MB1        &mkp MB2        &mkp MB3
             >;
         };
@@ -95,7 +95,7 @@
             bindings = <
          &kp ESC    &kp Q  &kp N1  &kp E      &kp R        &kp ESC  &none  &none  &none  &none
          &kp LSHFT  &kp A  &kp W   &kp D      &kp F        &kp TAB  &none  &none  &none  &none
-&kp TAB  &none      &kp Z  &kp S   &kp C      &kp V        &none    &none  &none  &none  &none  &none
+&kp TAB  &none      &kp Z  &kp S   &kp C      &kp V        &none    &none  &none  &none  &none  &to 0
                            &none   &kp LCTRL  &kp SPACE    &none    &none  &none
             >;
         };

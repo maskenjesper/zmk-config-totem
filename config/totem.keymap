@@ -68,7 +68,7 @@
            &kp EXCLAMATION       &kp AT_SIGN         &kp LEFT_BRACKET           &kp RIGHT_BRACKET                   &kp PERCENT    &kp CARET      &kp N7                &kp N8       &kp N9           &kp PIPE
            &hm LEFT_SHIFT TILDE  &hm LEFT_ALT UNDER  &hm LGUI LEFT_PARENTHESIS  &hm LEFT_CONTROL RIGHT_PARENTHESIS  &kp EQUAL      &kp AMPERSAND  &hm RIGHT_CONTROL N4  &hm RGUI N5  &hm LEFT_ALT N6  &hm RIGHT_SHIFT NUMBER_0
 &kp GRAVE  &kp HASH              &kp MINUS           &kp LEFT_BRACE             &kp RIGHT_BRACE                     &kp PLUS       &kp ASTERISK   &kp N1                &kp N2       &kp N3           &kp BACKSLASH             &kp DOLLAR
-                                                     &trans                     &to 3                               &trans         &trans         &trans                &to 4
+                                                     &trans                     &kp BACKSPACE                       &trans         &trans         &trans                &trans
             >;
         };
 
@@ -78,7 +78,7 @@
         &kp F2   &kp F3          &kp F4              &kp F5      &kp F6               &kp F7         &kp F8         &kp F9         &kp F10    &kp F11
         &kp F14  &kp C_PREVIOUS  &kp C_PLAY_PAUSE    &kp C_NEXT  &kp C_VOLUME_UP      &kp LEFT       &kp DOWN       &kp UP         &kp RIGHT  &kp F16
 &kp F1  &kp F13  &kp C_REWIND    &kp C_FAST_FORWARD  &kp C_MUTE  &kp C_VOLUME_DOWN    &kp HOME       &kp PAGE_DOWN  &kp PAGE_DOWN  &kp END    &kp F15  &kp F12
-                                 &trans              &trans      &trans               &kp BACKSPACE  &caps_word     &trans
+                                 &to 4               &to 3       &trans               &kp BACKSPACE  &caps_word     &trans
             >;
         };
 

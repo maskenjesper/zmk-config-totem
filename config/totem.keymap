@@ -55,6 +55,29 @@
             bindings = <&caps_word>;
             key-positions = <19 10>;
         };
+
+        o {
+            bindings = <&o>;
+            key-positions = <19 18>;
+        };
+    };
+
+    macros {
+        o: o {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_ALT &kp SPACE>,
+                <&macro_release>,
+                <&macro_tap>,
+                <&kp SEMI>,
+                <&macro_press>,
+                <&kp LEFT_ALT &kp SPACE>,
+                <&macro_release>;
+
+            label = "O";
+        };
     };
 
     keymap {

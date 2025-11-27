@@ -40,7 +40,7 @@
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
-            #binding-cells = <2>;
+            /* #binding-cells = <2>; */
             flavor = "balanced";
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;

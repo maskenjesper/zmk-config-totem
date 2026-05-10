@@ -51,7 +51,7 @@
         /*     bindings = <&kp>, <&kp>; */
         /* }; */
 
-        hml: homerow_mods {
+        hml: homerow_mods_left {
             flavor = "balanced";
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
@@ -60,7 +60,7 @@
             hold-trigger-key-positions = <KEYS_R, THUMBS>;
             hold-trigger-on-release;
         };
-        hmr: homerow_mods {
+        hmr: homerow_mods_right {
             flavor = "balanced";
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;

@@ -106,17 +106,17 @@
            &kp EXCLAMATION        &kp AT_SIGN          &kp LEFT_BRACKET            &kp RIGHT_BRACKET                    &kp PERCENT    &kp CARET      &kp N7                 &kp N8        &kp N9            &kp PIPE
            &hml LEFT_SHIFT TILDE  &hml LEFT_ALT MINUS  &hml LGUI LEFT_PARENTHESIS  &hml LEFT_CONTROL RIGHT_PARENTHESIS  &kp EQUAL      &kp AMPERSAND  &hmr RIGHT_CONTROL N4  &hmr RGUI N5  &hmr LEFT_ALT N6  &hmr RIGHT_SHIFT NUMBER_0
 &kp GRAVE  &kp HASH               &kp UNDER            &kp LEFT_BRACE              &kp RIGHT_BRACE                      &kp PLUS       &kp ASTERISK   &kp N1                 &kp N2        &kp N3            &kp BACKSLASH              &kp DOLLAR
-                                                       &trans                      &kp BACKSPACE                        &sl 0          &trans         &trans                 &trans
+                                                       &kp COMMA                   &kp DOT                              &trans         &trans         &trans                 &trans
             >;
         };
 
         Nav {
             display-name = "Nav";
             bindings = <
-        &kp F2   &kp F3          &kp F4              &kp F5      &kp F6               &kp F7         &kp F8         &kp F9       &kp F10    &kp F11
-        &kp F14  &kp C_PREVIOUS  &kp C_PLAY_PAUSE    &kp C_NEXT  &kp C_VOLUME_UP      &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT  &kp F16
-&kp F1  &kp F13  &kp C_REWIND    &kp C_FAST_FORWARD  &kp C_MUTE  &kp C_VOLUME_DOWN    &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp F15  &kp F12
-                                 &to 4               &to 3       &trans               &kp BACKSPACE  &caps_word     &trans
+        &kp F2   &kp F3          &kp F4              &kp F5      &kp F6               &kp F7    &kp F8         &kp F9       &kp F10    &kp F11
+        &kp F14  &kp C_PREVIOUS  &kp C_PLAY_PAUSE    &kp C_NEXT  &kp C_VOLUME_UP      &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &kp F16
+&kp F1  &kp F13  &kp C_REWIND    &kp C_FAST_FORWARD  &kp C_MUTE  &kp C_VOLUME_DOWN    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp F15  &kp F12
+                                 &to 4               &to 3       &trans               &trans    &trans         &trans
             >;
         };
 

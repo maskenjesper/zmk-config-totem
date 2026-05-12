@@ -79,7 +79,7 @@
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <17 18>;
+            key-positions = <29 28>;
         };
 
         enter {

@@ -75,7 +75,7 @@
         caps_word {
             bindings = <&caps_word>;
             key-positions = <19 10>;
-            layers = <1 0 2>;
+            layers = <1 0 3>;
         };
 
         backspace {
@@ -91,7 +91,7 @@
         escape {
             bindings = <&kp ESCAPE>;
             key-positions = <12 11>;
-            layers = <0 1 2>;
+            layers = <0 1 3>;
         };
 
         tab {
@@ -106,29 +106,38 @@
         Base {
             display-name = "Base";
             bindings = <
-              &kp Q              &kp W            &kp E        &kp R                &kp T          &kp Y           &kp U                 &kp I        &kp O            &kp P
-              &hml LEFT_SHIFT A  &hml LEFT_ALT S  &hml LGUI D  &hml LEFT_CONTROL F  &kp G          &kp H           &hmr RIGHT_CONTROL J  &hmr RGUI K  &hmr LEFT_ALT L  &hmr RIGHT_SHIFT SEMICOLON
-&lt 1 ESCAPE  &kp Z              &kp X            &kp C        &kp V                &kp B          &kp N           &kp M                 &kp COMMA    &kp DOT          &kp SLASH                   &kp APOSTROPHE
-                                                  &kp DELETE   &sl 1                &lt 2 SPACE    &sk LEFT_SHIFT  &sl 1                 &kp ENTER
+        &kp Q              &kp W            &kp E        &kp R                &kp T          &kp Y           &kp U                 &kp I        &kp O            &kp P
+        &hml LEFT_SHIFT A  &hml LEFT_ALT S  &hml LGUI D  &hml LEFT_CONTROL F  &kp G          &kp H           &hmr RIGHT_CONTROL J  &hmr RGUI K  &hmr LEFT_ALT L  &hmr RIGHT_SHIFT SEMICOLON
+&trans  &kp Z              &kp X            &kp C        &kp V                &kp B          &kp N           &kp M                 &kp COMMA    &kp DOT          &kp SLASH                   &trans
+                                            &kp DELETE   &sl 1                &lt 3 SPACE    &sk LEFT_SHIFT  &sl 2                 &kp ENTER
             >;
         };
 
         Sym_L {
             bindings = <
-        &trans                 &trans               &trans                      &trans                               &trans    &trans     &kp CARET              &kp AMPERSAND            &kp ASTERISK                &kp PIPE
-        &hml LEFT_SHIFT TILDE  &hml LEFT_ALT MINUS  &hml LGUI LEFT_PARENTHESIS  &hml LEFT_CONTROL RIGHT_PARENTHESIS  &trans    &trans     &hmr RIGHT_CONTROL N4  &hmr RGUI DOUBLE_QUOTES  &hmr LEFT_ALT SINGLE_QUOTE  &hmr RIGHT_SHIFT COLON
-&trans  &trans                 &trans               &trans                      &trans                               &trans    &trans     &kp DOLLAR             &kp LESS_THAN            &kp GREATER_THAN            &kp BACKSLASH           &trans
-                                                    &trans                      &trans                               &trans    &kp COLON  &kp DOT                &kp COMMA
+        &trans                 &trans               &trans                      &trans                               &trans    &trans  &kp CARET                 &kp AMPERSAND            &kp ASTERISK                &kp PIPE
+        &hml LEFT_SHIFT TILDE  &hml LEFT_ALT MINUS  &hml LGUI LEFT_PARENTHESIS  &hml LEFT_CONTROL RIGHT_PARENTHESIS  &trans    &trans  &hmr RIGHT_CONTROL GRAVE  &hmr RGUI DOUBLE_QUOTES  &hmr LEFT_ALT SINGLE_QUOTE  &hmr RIGHT_SHIFT COLON
+&trans  &trans                 &trans               &trans                      &trans                               &trans    &trans  &kp DOLLAR                &kp LESS_THAN            &kp GREATER_THAN            &kp BACKSLASH           &trans
+                                                    &trans                      &trans                               &trans    &trans  &trans                    &trans
+            >;
+        };
+
+        Sym_R {
+            bindings = <
+        &kp EXCLAMATION        &kp AT_SIGN          &kp LEFT_BRACKET            &kp RIGHT_BRACKET                    &kp PERCENT    &kp COLON   &kp N7                 &kp N8        &kp N9            &kp SEMICOLON
+        &hml LEFT_SHIFT TILDE  &hml LEFT_ALT MINUS  &hml LGUI LEFT_PARENTHESIS  &hml LEFT_CONTROL RIGHT_PARENTHESIS  &kp EQUAL      &kp PERIOD  &hmr RIGHT_CONTROL N4  &hmr RGUI N5  &hmr LEFT_ALT N6  &hmr RIGHT_SHIFT NUMBER_0
+&trans  &kp HASH               &kp UNDER            &kp LEFT_BRACE              &kp RIGHT_BRACE                      &kp PLUS       &kp COMMA   &kp N1                 &kp N2        &kp N3            &kp UNDERSCORE             &trans
+                                                    &trans                      &trans                               &trans         &trans      &trans                 &trans
             >;
         };
 
         Nav {
             display-name = "Nav";
             bindings = <
-        &kp F1  &kp F2          &kp F3              &kp F4      &kp F5               &kp F6         &kp F7         &kp F8       &kp F9     &kp F10
-        &trans  &kp C_PREVIOUS  &kp C_PLAY_PAUSE    &kp C_NEXT  &kp C_VOLUME_UP      &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT  &kp F11
-&trans  &trans  &kp C_REWIND    &kp C_FAST_FORWARD  &kp C_MUTE  &kp C_VOLUME_DOWN    &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans   &kp F12
-                                &to 4               &to 3       &trans               &kp BACKSPACE  &kp ENTER      &trans
+        &kp F1                      &kp F2                    &kp F3                      &kp F4                    &kp F5               &kp F6         &kp F7         &kp F8       &kp F9     &kp F10
+        &hml LEFT_SHIFT LEFT_SHIFT  &hml LEFT_ALT C_PREVIOUS  &hml LEFT_WIN C_PLAY_PAUSE  &hml LEFT_CONTROL C_NEXT  &kp C_VOLUME_UP      &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT  &kp F11
+&trans  &trans                      &kp C_AC_COPY             &kp C_AC_PASTE              &kp C_MUTE                &kp C_VOLUME_DOWN    &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans   &kp F12
+                                                              &to 5                       &to 4                     &trans               &kp BACKSPACE  &kp ENTER      &trans
             >;
         };
 
@@ -147,15 +156,6 @@
          &kp LSHFT         &kp A  &kp W   &kp D      &kp F        &kp TAB  &none  &none  &none  &none
 &kp TAB  &kp LEFT_CONTROL  &kp Z  &kp S   &kp C      &kp V        &none    &none  &none  &none  &none  &to 0
                                   &none   &kp LCTRL  &kp SPACE    &none    &none  &none
-            >;
-        };
-
-        Sym_R {
-            bindings = <
-           &kp EXCLAMATION        &kp AT_SIGN          &kp LEFT_BRACKET            &kp RIGHT_BRACKET                    &kp PERCENT    &kp CARET      &kp N7                 &kp N8        &kp N9            &kp PIPE
-           &hml LEFT_SHIFT TILDE  &hml LEFT_ALT MINUS  &hml LGUI LEFT_PARENTHESIS  &hml LEFT_CONTROL RIGHT_PARENTHESIS  &kp EQUAL      &kp AMPERSAND  &hmr RIGHT_CONTROL N4  &hmr RGUI N5  &hmr LEFT_ALT N6  &hmr RIGHT_SHIFT NUMBER_0
-&kp GRAVE  &kp HASH               &kp UNDER            &kp LEFT_BRACE              &kp RIGHT_BRACE                      &kp PLUS       &kp ASTERISK   &kp N1                 &kp N2        &kp N3            &kp BACKSLASH              &kp DOLLAR
-                                                       &kp COMMA                   &kp DOT                              &trans         &kp COLON      &kp DOT                &kp COMMA
             >;
         };
     };

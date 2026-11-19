@@ -117,8 +117,8 @@
         Sym_L {
             bindings = <
         &trans          &trans        &trans    &trans            &trans    &kp SV_BACKSLASH  &kp SV_CARET                 &kp SV_AMPERSAND            &kp SV_ASTERISK                &kp SV_PIPE
-        &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LGUI  &kp LEFT_CONTROL  &trans    &trans            &hmr RIGHT_CONTROL SV_GRAVE  &hmr RGUI SV_DOUBLE_QUOTES  &hmr LEFT_ALT SV_SINGLE_QUOTE  &hmr RIGHT_SHIFT SV_COLON
-&trans  &trans          &trans        &trans    &trans            &trans    &trans            &kp SV_DOLLAR                &kp SV_LESS_THAN            &kp SV_GREATER_THAN            &kp SV_QUESTION            &trans
+        &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LGUI  &kp LEFT_CONTROL  &trans    &kp SV_A_UMLAUT   &hmr RIGHT_CONTROL SV_GRAVE  &hmr RGUI SV_DOUBLE_QUOTES  &hmr LEFT_ALT SV_SINGLE_QUOTE  &hmr RIGHT_SHIFT SV_COLON
+&trans  &trans          &trans        &trans    &trans            &trans    &kp SV_A_RING     &kp SV_DOLLAR                &kp SV_LESS_THAN            &kp SV_GREATER_THAN            &kp SV_QUESTION            &kp SV_O_UMLAUT
                                       &trans    &trans            &trans    &trans            &trans                       &trans
             >;
         };

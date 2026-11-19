@@ -107,27 +107,27 @@
         Base {
             display-name = "Base";
             bindings = <
-        &kp SV_Q              &kp W            &kp E        &kp R                &kp T          &kp Y           &kp U                 &kp I        &kp O            &kp P
-        &hml LEFT_SHIFT A  &hml LEFT_ALT S  &hml LGUI D  &hml LEFT_CONTROL F  &kp G          &kp H           &hmr RIGHT_CONTROL J  &hmr RGUI K  &hmr LEFT_ALT L  &hmr RIGHT_SHIFT SEMICOLON
-&trans  &kp Z              &kp X            &kp C        &kp V                &kp B          &kp N           &kp M                 &kp COMMA    &kp DOT          &kp SLASH                   &kp ENTER
+        &kp SV_Q              &kp SV_W            &kp SV_E        &kp SV_R                &kp SV_T          &kp SV_Y           &kp SV_U                 &kp SV_I        &kp SV_O            &kp SV_P
+        &hml LEFT_SHIFT SV_A  &hml LEFT_ALT SV_S  &hml LGUI SV_D  &hml LEFT_CONTROL SV_F  &kp SV_G          &kp SV_H           &hmr RIGHT_CONTROL SV_J  &hmr RGUI SV_K  &hmr LEFT_ALT SV_L  &hmr RIGHT_SHIFT SV_SEMICOLON
+&trans  &kp SV_Z              &kp SV_X            &kp SV_C        &kp SV_V                &kp SV_B          &kp SV_N           &kp SV_M                 &kp SV_COMMA    &kp SV_DOT          &kp SV_SLASH                   &kp SV_ENTER
                                             &sl 2        &sl 1                &lt 3 SPACE    &sk LEFT_SHIFT  &sl 2                 &sl 1
             >;
         };
 
         Sym_L {
             bindings = <
-        &trans          &trans        &trans    &trans            &trans    &kp BACKSLASH  &kp CARET                 &kp AMPERSAND            &kp ASTERISK                &kp PIPE
-        &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LGUI  &kp LEFT_CONTROL  &trans    &trans         &hmr RIGHT_CONTROL GRAVE  &hmr RGUI DOUBLE_QUOTES  &hmr LEFT_ALT SINGLE_QUOTE  &hmr RIGHT_SHIFT COLON
-&trans  &trans          &trans        &trans    &trans            &trans    &trans         &kp DOLLAR                &kp LESS_THAN            &kp GREATER_THAN            &kp QUESTION            &trans
+        &trans          &trans        &trans    &trans            &trans    &kp SV_BACKSLASH  &kp SV_CARET                 &kp SV_AMPERSAND            &kp SV_ASTERISK                &kp SV_PIPE
+        &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LGUI  &kp LEFT_CONTROL  &trans    &trans         &hmr RIGHT_CONTROL SV_GRAVE  &hmr RGUI SV_DOUBLE_QUOTES  &hmr LEFT_ALT SV_SINGLE_QUOTE  &hmr RIGHT_SHIFT SV_COLON
+&trans  &trans          &trans        &trans    &trans            &trans    &trans         &kp SV_DOLLAR                &kp SV_LESS_THAN            &kp SV_GREATER_THAN            &kp SV_QUESTION            &trans
                                       &trans    &trans            &trans    &trans         &trans                    &trans
             >;
         };
 
         Sym_R {
             bindings = <
-        &kp EXCLAMATION        &kp AT_SIGN          &kp LEFT_BRACKET            &kp RIGHT_BRACKET                    &kp PERCENT    &kp COLON   &kp N7                 &kp N8        &kp N9            &kp SEMICOLON
-        &hml LEFT_SHIFT TILDE  &hml LEFT_ALT MINUS  &hml LGUI LEFT_PARENTHESIS  &hml LEFT_CONTROL RIGHT_PARENTHESIS  &kp EQUAL      &kp PERIOD  &hmr RIGHT_CONTROL N4  &hmr RGUI N5  &hmr LEFT_ALT N6  &hmr RIGHT_SHIFT NUMBER_0
-&trans  &kp HASH               &kp UNDER            &kp LEFT_BRACE              &kp RIGHT_BRACE                      &kp PLUS       &kp COMMA   &kp N1                 &kp N2        &kp N3            &kp UNDERSCORE             &trans
+        &kp SV_EXCLAMATION        &kp SV_AT_SIGN          &kp SV_LEFT_BRACKET            &kp SV_RIGHT_BRACKET                    &kp SV_PERCENT    &kp SV_COLON   &kp SV_N7                 &kp SV_N8        &kp SV_N9            &kp SV_SEMICOLON
+        &hml LEFT_SHIFT SV_TILDE  &hml LEFT_ALT SV_MINUS  &hml LGUI SV_LEFT_PARENTHESIS  &hml LEFT_CONTROL SV_RIGHT_PARENTHESIS  &kp SV_EQUAL      &kp SV_PERIOD  &hmr RIGHT_CONTROL SV_N4  &hmr RGUI SV_N5  &hmr LEFT_ALT SV_N6  &hmr RIGHT_SHIFT SV_N0
+&trans  &kp SV_HASH               &kp SV_UNDER            &kp SV_LEFT_BRACE              &kp SV_RIGHT_BRACE                      &kp SV_PLUS       &kp SV_COMMA   &kp SV_N1                 &kp SV_N2        &kp SV_N3            &kp SV_UNDERSCORE             &trans
                                                     &trans                      &trans                               &trans         &trans      &trans                 &trans
             >;
         };
@@ -153,9 +153,9 @@
 
         game {
             bindings = <
-         &kp ESC           &kp Q  &kp N1  &kp E      &kp R        &kp ESC  &none  &none  &none  &none
-         &kp LSHFT         &kp A  &kp W   &kp D      &kp F        &kp TAB  &none  &none  &none  &none
-&kp TAB  &kp LEFT_CONTROL  &kp Z  &kp S   &kp C      &kp V        &none    &none  &none  &none  &none  &to 0
+         &kp ESC           &kp SV_Q  &kp SV_N1  &kp SV_E      &kp SV_R        &kp ESC  &none  &none  &none  &none
+         &kp LSHFT         &kp SV_A  &kp SV_W   &kp SV_D      &kp SV_F        &kp TAB  &none  &none  &none  &none
+&kp TAB  &kp LEFT_CONTROL  &kp SV_Z  &kp SV_S   &kp SV_C      &kp SV_V        &none    &none  &none  &none  &none  &to 0
                                   &none   &kp LCTRL  &kp SPACE    &none    &none  &none
             >;
         };

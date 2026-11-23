@@ -117,7 +117,7 @@
         &trans                      &trans                    &trans                    &trans                        &kp DELETE           &kp LC(LEFT)       &kp TAB        &kp LS(TAB)  &kp LC(RIGHT)  &trans
         &hml (LEFT_SHIFT) LC(SV_A)  &hml (LEFT_ALT) LC(SV_C)  &hml (LEFT_WIN) LC(SV_V)  &hml (LEFT_CONTROL) LC(SV_F)  &kp C_VOLUME_UP      &kp LEFT           &kp DOWN       &kp UP       &kp RIGHT      &trans
 &trans  &trans                      &trans                    &kp C_PP                  &kp C_MUTE                    &kp C_VOLUME_DOWN    &kp HOME           &kp PAGE_DOWN  &kp PAGE_UP  &kp END        &trans  &trans
-                                                              &to 5                     &to 4                         &trans               &kp LC(BACKSPACE)  &kp ENTER      &trans
+                                                              &to 5                     &to 4                         &trans               &kp LC(BACKSPACE)  &kp BACKSPACE  &trans
             >;
         };
 

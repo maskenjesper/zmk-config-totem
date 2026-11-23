@@ -107,38 +107,38 @@
         Base {
             display-name = "Base";
             bindings = <
-        &kp SV_Q              &kp SV_W            &kp SV_E        &kp SV_R                &kp SV_T       &kp SV_Y        &kp SV_U                 &kp SV_I        &kp SV_O            &kp SV_P
-        &hml LEFT_SHIFT SV_A  &hml LEFT_ALT SV_S  &hml LGUI SV_D  &hml LEFT_CONTROL SV_F  &kp SV_G       &kp SV_H        &hmr RIGHT_CONTROL SV_J  &hmr RGUI SV_K  &hmr LEFT_ALT SV_L  &hmr RIGHT_SHIFT SV_SEMICOLON
-&trans  &kp SV_Z              &kp SV_X            &kp SV_C        &kp SV_V                &kp SV_B       &kp SV_N        &kp SV_M                 &kp SV_COMMA    &kp SV_DOT          &kp SV_SLASH                   &kp ENTER
+        &kp SV_Q              &kp SV_W            &kp SV_E        &kp SV_R                &kp SV_T       &kp SV_Y        &kp SV_U                 &kp SV_I         &kp SV_O            &kp SV_P
+        &hml LEFT_SHIFT SV_A  &hml LEFT_ALT SV_S  &hml LGUI SV_D  &hml LEFT_CONTROL SV_F  &kp SV_G       &kp SV_H        &hmr RIGHT_CONTROL SV_J  &hmr RGUI SV_K   &hmr LEFT_ALT SV_L  &hmr RIGHT_SHIFT SV_O_UMLAUT
+&trans  &kp SV_Z              &kp SV_X            &kp SV_C        &kp SV_V                &kp SV_B       &kp SV_N        &kp SV_M                 &kp SV_A_UMLAUT  &kp SV_A_RING       &kp SV_SLASH                  &kp ENTER
                                                   &sl 2           &sl 1                   &lt 3 SPACE    &sk LEFT_SHIFT  &sl 2                    &sl 1
             >;
         };
 
         Sym_L {
             bindings = <
-        &trans          &trans        &trans    &trans            &trans    &kp SV_BACKSLASH  &kp SV_CARET                 &kp SV_AMPERSAND            &kp SV_ASTERISK                &kp SV_PIPE
-        &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LGUI  &kp LEFT_CONTROL  &trans    &kp SV_A_UMLAUT   &hmr RIGHT_CONTROL SV_GRAVE  &hmr RGUI SV_DOUBLE_QUOTES  &hmr LEFT_ALT SV_SINGLE_QUOTE  &hmr RIGHT_SHIFT SV_COLON
-&trans  &trans          &trans        &trans    &trans            &trans    &kp SV_A_RING     &kp SV_DOLLAR                &kp SV_LESS_THAN            &kp SV_GREATER_THAN            &kp SV_QUESTION            &kp SV_O_UMLAUT
-                                      &trans    &trans            &trans    &trans            &trans                       &trans
+        &kp SV_SPACE           &kp SV_N7            &kp SV_N8        &kp SV_N9                &trans    &kp SV_BACKSLASH  &kp SV_LESS_THAN                    &kp SV_GREATER_THAN         &kp SV_ASTERISK             &kp SV_AMPERSAND
+        &hmr LEFT_SHIFT SV_N0  &hmr LEFT_ALT SV_N4  &hmr LGUI SV_N5  &hmr LEFT_CONTROL SV_N6  &trans    &kp SV_PIPE       &hmr RIGHT_CONTROL SV_SINGLE_QUOTE  &hmr RGUI SV_DOUBLE_QUOTES  &hmr LEFT_ALT SV_SEMICOLON  &hmr RIGHT_SHIFT SV_COLON
+&trans  &trans                 &kp SV_N1            &kp SV_N2        &kp SV_N3                &trans    &kp SV_CARET      &kp SV_GRAVE                        &kp SV_COMMA                &kp SV_DOT                  &kp SV_QUESTION            &trans
+                                                    &trans           &trans                   &trans    &trans            &trans                              &trans
             >;
         };
 
         Sym_R {
             bindings = <
-        &kp SV_EXCLAMATION        &kp SV_AT_SIGN          &kp SV_LEFT_BRACKET            &kp SV_RIGHT_BRACKET                    &kp SV_PERCENT    &kp SV_COLON   &kp SV_N7                 &kp SV_N8        &kp SV_N9            &kp SV_SEMICOLON
-        &hml LEFT_SHIFT SV_TILDE  &hml LEFT_ALT SV_MINUS  &hml LGUI SV_LEFT_PARENTHESIS  &hml LEFT_CONTROL SV_RIGHT_PARENTHESIS  &kp SV_EQUAL      &kp SV_PERIOD  &hmr RIGHT_CONTROL SV_N4  &hmr RGUI SV_N5  &hmr LEFT_ALT SV_N6  &hmr RIGHT_SHIFT SV_N0
-&trans  &kp SV_HASH               &kp SV_UNDER            &kp SV_LEFT_BRACE              &kp SV_RIGHT_BRACE                      &kp SV_PLUS       &kp SV_COMMA   &kp SV_N1                 &kp SV_N2        &kp SV_N3            &kp SV_UNDERSCORE       &trans
-                                                          &trans                         &trans                                  &trans            &trans         &trans                    &trans
+              &kp SV_EXCLAMATION         &kp SV_AT_SIGN          &kp SV_LEFT_BRACKET            &kp SV_RIGHT_BRACKET                    &kp SV_PERCENT    &trans  &trans             &trans    &trans        &trans
+              &hml LEFT_SHIFT SV_DOLLAR  &hml LEFT_ALT SV_MINUS  &hml LGUI SV_LEFT_PARENTHESIS  &hml LEFT_CONTROL SV_RIGHT_PARENTHESIS  &kp SV_EQUAL      &trans  &kp RIGHT_CONTROL  &kp RGUI  &kp LEFT_ALT  &kp RIGHT_SHIFT
+&kp SV_TILDE  &kp SV_HASH                &kp SV_UNDER            &kp SV_LEFT_BRACE              &kp SV_RIGHT_BRACE                      &kp SV_PLUS       &trans  &trans             &trans    &trans        &trans           &trans
+                                                                 &trans                         &trans                                  &trans            &trans  &trans             &trans
             >;
         };
 
         Nav {
             display-name = "Nav";
             bindings = <
-        &kp F1          &kp F2                   &kp F3                    &kp F4                    &kp F5               &kp F6         &kp F7         &kp F8       &kp F9     &kp F10
-        &kp LEFT_SHIFT  &hml LEFT_ALT C_AC_COPY  &hml LEFT_WIN C_AC_PASTE  &hml LEFT_CONTROL C_MUTE  &kp C_VOLUME_UP      &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT  &kp F11
-&trans  &trans          &kp C_PREVIOUS           &kp C_PP                  &kp C_NEXT                &kp C_VOLUME_DOWN    &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans   &kp F12
-                                                 &to 5                     &to 4                     &trans               &kp BACKSPACE  &kp ENTER      &trans
+        &kp F1          &kp F2                    &kp F3                    &kp F4                        &kp F5               &kp F6             &kp F7         &kp F8       &kp F9     &kp F10
+        &kp LEFT_SHIFT  &hml (LEFT_ALT) LC(SV_C)  &hml (LEFT_WIN) LC(SV_V)  &hml (LEFT_CONTROL) LC(SV_F)  &kp C_VOLUME_UP      &kp LEFT           &kp DOWN       &kp UP       &kp RIGHT  &kp F11
+&trans  &trans          &trans                    &kp C_PP                  &kp C_MUTE                    &kp C_VOLUME_DOWN    &kp HOME           &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans   &kp F12
+                                                  &to 5                     &to 4                         &trans               &kp LC(BACKSPACE)  &kp ENTER      &trans
             >;
         };
 

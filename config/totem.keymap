@@ -110,28 +110,28 @@
         Base {
             display-name = "Base";
             bindings = <
-            &kp SV_Q              &kp SV_W            &kp SV_E        &kp SV_R                &kp SV_T       &kp SV_Y        &kp SV_U                 &kp SV_I        &kp SV_O            &kp SV_P
-            &hml LEFT_SHIFT SV_A  &hml LEFT_ALT SV_S  &hml LGUI SV_D  &hml LEFT_CONTROL SV_F  &kp SV_G       &kp SV_H        &hmr RIGHT_CONTROL SV_J  &hmr RGUI SV_K  &hmr LEFT_ALT SV_L  &hmr RIGHT_SHIFT SV_SEMICOLON
-&kp ESCAPE  &kp SV_Z              &kp SV_X            &kp SV_C        &kp SV_V                &kp SV_B       &kp SV_N        &kp SV_M                 &kp SV_COMMA    &kp SV_DOT          &kp SV_SLASH                   &kp ENTER
-                                                      &sl 1           &sl 2                   &lt 3 SPACE    &sk LEFT_SHIFT  &sl 1                    &sl 2
+        &kp SV_Q              &kp SV_W            &kp SV_E        &kp SV_R                &kp SV_T       &kp SV_Y        &kp SV_U                 &kp SV_I        &kp SV_O            &kp SV_P
+        &hml LEFT_SHIFT SV_A  &hml LEFT_ALT SV_S  &hml LGUI SV_D  &hml LEFT_CONTROL SV_F  &kp SV_G       &kp SV_H        &hmr RIGHT_CONTROL SV_J  &hmr RGUI SV_K  &hmr LEFT_ALT SV_L  &hmr RIGHT_SHIFT SV_SEMICOLON
+&trans  &kp SV_Z              &kp SV_X            &kp SV_C        &kp SV_V                &kp SV_B       &kp SV_N        &kp SV_M                 &kp SV_COMMA    &kp SV_DOT          &kp SV_SLASH                   &trans
+                                                  &sl 1           &sl 2                   &lt 3 SPACE    &sk LEFT_SHIFT  &sl 1                    &sl 2
             >;
         };
 
         Sym_R {
             bindings = <
-              &kp SV_EXCLAMATION         &kp SV_AT_SIGN          &kp SV_LEFT_BRACKET            &kp SV_RIGHT_BRACKET                    &kp SV_PERCENT    &trans  &kp F7                 &kp F8        &kp F9            &kp F10
-              &hml LEFT_SHIFT SV_DOLLAR  &hml LEFT_ALT SV_MINUS  &hml LGUI SV_LEFT_PARENTHESIS  &hml LEFT_CONTROL SV_RIGHT_PARENTHESIS  &kp SV_EQUAL      &trans  &hmr RIGHT_CONTROL F4  &hmr RGUI F5  &hmr LEFT_ALT F6  &hmr RIGHT_SHIFT F11
-&kp SV_TILDE  &kp SV_HASH                &kp SV_UNDER            &kp SV_LEFT_BRACE              &kp SV_RIGHT_BRACE                      &kp SV_PLUS       &trans  &kp F1                 &kp F2        &kp F3            &kp F12               &trans
-                                                                 &trans                         &trans                                  &trans            &trans  &trans                 &trans
+              &kp SV_EXCLAMATION         &kp SV_AT_SIGN          &kp SV_LEFT_BRACKET            &kp SV_RIGHT_BRACKET                    &kp SV_PERCENT    &kp SV_COMMA       &kp SV_N7                 &kp SV_N8        &kp SV_N9            &kp SV_ASTERISK
+              &hml LEFT_SHIFT SV_DOLLAR  &hml LEFT_ALT SV_MINUS  &hml LGUI SV_LEFT_PARENTHESIS  &hml LEFT_CONTROL SV_RIGHT_PARENTHESIS  &kp SV_EQUAL      &kp SV_DOT         &hmr RIGHT_CONTROL SV_N4  &hmr RGUI SV_N5  &hmr LEFT_ALT SV_N6  &hmr RIGHT_SHIFT SV_N0
+&kp SV_TILDE  &kp SV_HASH                &kp SV_UNDER            &kp SV_LEFT_BRACE              &kp SV_RIGHT_BRACE                      &kp SV_PLUS       &kp SV_UNDERSCORE  &kp SV_N1                 &kp SV_N2        &kp SV_N3            &kp SV_SLASH            &trans
+                                                                 &trans                         &trans                                  &trans            &trans             &trans                    &trans
             >;
         };
 
         Sym_L {
             bindings = <
-        &kp SV_SPACE           &kp SV_N7            &kp SV_N8        &kp SV_N9                &kp SV_COMMA         &kp SV_BACKSLASH  &kp SV_LESS_THAN                    &kp SV_GREATER_THAN         &kp SV_ASTERISK            &kp SV_AMPERSAND
-        &hml LEFT_SHIFT SV_N0  &hml LEFT_ALT SV_N4  &hml LGUI SV_N5  &hml LEFT_CONTROL SV_N6  &kp SV_DOT           &kp SV_PIPE       &hmr RIGHT_CONTROL SV_SINGLE_QUOTE  &hmr RGUI SV_DOUBLE_QUOTES  &hmr LEFT_ALT SV_O_UMLAUT  &hmr RIGHT_SHIFT SV_COLON
-&trans  &trans                 &kp SV_N1            &kp SV_N2        &kp SV_N3                &kp SV_UNDERSCORE    &kp SV_CARET      &kp SV_GRAVE                        &kp SV_A_UMLAUT             &kp SV_A_RING              &kp SV_QUESTION            &trans
-                                                    &trans           &trans                   &trans               &trans            &trans                              &trans
+        &kp F10              &kp F7            &kp F8        &kp F9                &trans    &kp SV_BACKSLASH  &kp SV_LESS_THAN                    &kp SV_GREATER_THAN         &kp SV_ASTERISK            &kp SV_AMPERSAND
+        &hml LEFT_SHIFT F11  &hml LEFT_ALT F4  &hml LGUI F5  &hml LEFT_CONTROL F6  &trans    &kp SV_PIPE       &hmr RIGHT_CONTROL SV_SINGLE_QUOTE  &hmr RGUI SV_DOUBLE_QUOTES  &hmr LEFT_ALT SV_O_UMLAUT  &hmr RIGHT_SHIFT SV_COLON
+&trans  &kp F12              &kp F1            &kp F2        &kp F3                &trans    &kp SV_CARET      &kp SV_GRAVE                        &kp SV_A_UMLAUT             &kp SV_A_RING              &kp SV_QUESTION            &trans
+                                               &trans        &trans                &trans    &trans            &trans                              &trans
             >;
         };
 

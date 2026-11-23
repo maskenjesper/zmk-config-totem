@@ -76,7 +76,31 @@
         caps_word {
             bindings = <&caps_word>;
             key-positions = <19 10>;
-            layers = <2 0 4>;
+            layers = <2 0 4 1>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <17 18>;
+            layers = <0 1 2 3>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <28 29>;
+            layers = <0 1 2 3>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <7 8>;
+            layers = <0 1 2 3>;
+        };
+
+        escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <11 12>;
+            layers = <0 1 2 3>;
         };
     };
 
